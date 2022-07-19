@@ -82,29 +82,24 @@ body {
     box-shadow: 5px 10px 8px #b1b1b1, 5px 10px 8px #b1b1b1;
 }
 
-.match img {
-    width: 100%;
+
+.img-vs {
+    display: flex;
+    padding-top: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items: center;
+    justify-content: center;
 }
 
-.tranfer-button {
-    color: white;
-    text-decoration: none;
-    background-image: linear-gradient(to bottom right, violet, indigo);
-    padding: 0.3%;
-    border-radius: 5px;
-    margin-left: 2%;
+.img-vs img {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-.blog {
-    margin-left: 2%;
-}
-
-.time-chat {
-    margin-left: 2%;
-}
-
-.space {
-    margin-right: 3%;
+.vs-details {
+    padding-top: 10%;
+    text-align: center;
 }
 
 /* Footer */
