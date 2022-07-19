@@ -7,8 +7,8 @@ body {
     color: white;
     display: flex;
     margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     background-color: #1e1e1e;
     border-radius: 20px;
     align-items: center;
@@ -31,4 +31,73 @@ body {
 
 .header-details img {
     width: 100%;
+}
+
+/* Upcoming Matchs  */
+.upcoming-matchs {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+}
+
+.match-nav {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    width: 20%;
+    height: 300px;
+}
+
+.match-button {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 900;
+    padding-top: 7%;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, violet, indigo);
+    border-radius: 20px;
+    margin: 5%;
+}
+
+.match-blog {
+    width: 80%;
+    display: grid;
+    margin-left: 3%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 3%;
+    grid-row-gap: 2%;
+}
+
+.match {
+    border: 1px solid #ababab;
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px #b1b1b1, 5px 10px 8px #b1b1b1;
+}
+
+.match img {
+    width: 100%;
+}
+
+.tranfer-button {
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom right, violet, indigo);
+    padding: 0.3%;
+    border-radius: 5px;
+    margin-left: 2%;
+}
+
+.blog {
+    margin-left: 2%;
+}
+
+.time-chat {
+    margin-left: 2%;
+}
+
+.space {
+    margin-right: 3%;
 }
